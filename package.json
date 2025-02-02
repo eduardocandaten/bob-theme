@@ -1,0 +1,22 @@
+{
+  "name": "bob",
+  "displayName": "Bob Theme",
+  "description": "Bob tem um bom gosto artístico",
+  "version": "1.0.0",
+  "publisher": "Eduardo",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bob Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bob.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "echo 'Prepublish script running...'"
+  }
+}
